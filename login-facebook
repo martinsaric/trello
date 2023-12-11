@@ -1,0 +1,30 @@
+Valid test cases:
+
+1. Login using a valid phone number and password
+
+2. Login using a valid email and password
+
+3. Login using an valid phone number and password [with country code number +381]
+
+4. Login using an valid phone number and password [with country code number 00381]
+
+5. Login using an valid phone number and password [without country code number 065]
+
+6. Verify clicking on eye icon to show password
+
+
+Invalid test cases:
+
+1. Login leaving a phone number or email field empty
+
+2. Login leaving a password field empty
+
+3. Login while using an invalid phone number or email [which are not registrated]
+
+4. Login while using an invalid password
+
+5. Login while making a spelling mistake on email [abc@gamil.com]
+
+6. Verify login 10 times using an invalid passwords
+
+7. Login using an old password after changing to the new one
