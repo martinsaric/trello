@@ -1,0 +1,24 @@
+Test cases:
+
+1. Verify registration using a valid phone number
+
+2. Verify registration using an invalid phone number
+
+3. Verify that the phone number field only accepts numbers [enter abc]
+
+4. Verify registration while using Arabic phone number
+
+5. Verify that numbers keyboard appears when user clicks on phone number field
+
+
+OTP test cases:
+
+1. Verify while using a valid OTP
+
+2. Verify that user can request OTP two times
+
+3. Verify using an old OTP after requesting a new one
+
+4. Verify that OTP is valid only for 10 minutes [test after 5 minutes - test after 12 minutes]
+
+5. Verify testing all scenarios while changing from mobile data to wifi
