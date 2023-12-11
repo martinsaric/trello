@@ -1,0 +1,48 @@
+Password field restrictions:
+
+-Password must be at least 6 characters
+
+-Password must include uppercase and lowercase letters
+
+-Password must be alphanumeric
+
+-Paswword must include at least one special character
+
+
+Test cases:
+
+Verify registration using valid data [enter a valid phone number]
+
+Verify registration using valid data [leave a phone number empty]
+
+Verify registration while leaving username field empty
+
+Verify registration while leaving password field empty
+
+Verify registration while leaving email field empty
+
+Verify registration using an short username "h"
+
+Verify registration using non-latin username "亚伦" [Chinesse]
+
+Verify registration using already used username
+
+Verify registration using a short password [Ab12#]
+
+Verify registration using a password that doesn't include uppercase [ab12#]
+
+Verify registration using a password that doesn't include lowercase [ABC12#]
+
+Verify registration using a password that doesn't include special character [Ab12]
+
+Verify registration using a password that doesn't include numbers [Ab#]
+
+Verify registration using a password that doesn't include letters [1234#]
+
+Verify registration using an invalid format of email adress [afb12@88]
+
+Verify registration using an already used email adress
+
+Verify that the phone number only accepts numeric characters [It doesn't accept special characters or letters]
+
+Verify registration using a very short phone number [123]
