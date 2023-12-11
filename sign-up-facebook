@@ -1,0 +1,83 @@
+Valid test cases:
+
+1. Verify registration while using a valid phone number
+
+2. Verify registration while using a valid email adress
+
+3. Verify registration while using choosing male as a gender
+
+4. Verify registration while using choosing female as a gender
+
+5. Verify registration while using choosing custom as a gender
+
+
+First name and surname - test cases:
+
+1. Verify while leaving a first name empty
+
+2. Verify while leaving a surname name empty
+
+3. Verify providing one character in the first name field
+
+4. Verify providing one character in the surname name field
+
+5. Verify providing two character in the first name field [Valid]
+
+6. Verify providing two character in the surname name field [Valid]
+
+7. Verify providing numbers in the first name field
+
+8. Verify providing numbers in the surname name field
+
+9. Verify providing special character in the first name field
+
+10. Verify providing special character in the surname name field
+
+11. Verify providing a non-English characters in the first name and surname fields [Russian, Chinesse, Arabic..etc]
+
+12. Verify providing first name in a lenguage that is different from lenguage used in the surname field
+
+
+Email or phone number - test cases:
+
+
+1. Verify leaving an email adress or phone number empty
+
+2. Verify providing an invalid phone number [Short number 123]
+
+3. Verify providing an invalid phone number [Very long number 123214215252155215]
+
+4. Verify providing letters in the email or phone number field [abca]
+
+5. Verify providing special characters in the email or phone number field [%$@]
+
+6. Verify registration while using an already used email
+
+
+Password - test cases
+
+1. Verify registration while leaving a password field empty
+
+2. Verify registration using a short password [Ab12#]
+
+3. Verify registration using a password that doesn't include uppercase [ab12#]
+
+4. Verify registration using a password that doesn't include lowercase [ABC12#]
+
+5. Verify registration using a password that doesn't include special character [Ab12]
+
+6. Verify registration using a password that doesn't include numbers [Ab#]
+
+7. Verify registration using a password that doesn't include letters [1234#]
+
+
+
+Date of birth - test cases
+
+1. Verify registration using a very young age [2]
+
+2. Verify registration using a date in future
+
+3. Verify registration using a young age [Between 4-13]
+
+4. Verify registration using a very old age [110 years old]
